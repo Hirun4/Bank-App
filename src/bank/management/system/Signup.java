@@ -27,6 +27,7 @@ public class Signup extends JFrame {
 
         JLabel label2 = new JLabel("page 1");
         label2.setFont(new Font("Ralway",Font.BOLD,22));
+        label2.setBounds(330,70,600,30);
 
 
 

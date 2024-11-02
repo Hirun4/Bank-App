@@ -17,6 +17,7 @@ public class Signup extends JFrame {
         JLabel label1= new JLabel("APPLICATION FORM NO.");
         label1.setBounds(160,20,600,40);
         label1.setFont(new Font("Raleway",Font.BOLD,38));
+        add(label1);
 
 
 

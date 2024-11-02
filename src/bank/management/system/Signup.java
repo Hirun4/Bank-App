@@ -26,6 +26,7 @@ public class Signup extends JFrame {
         add(label1);
 
         JLabel label2 = new JLabel("page 1");
+        label2.setFont(new Font("Ralway",Font.BOLD,22));
 
 
 

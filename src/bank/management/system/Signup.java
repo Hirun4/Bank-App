@@ -49,7 +49,7 @@ public class Signup extends JFrame {
 
         JLabel labelfName = new JLabel("Father's Name:");
         labelfName.setFont(new Font("Raleway",Font.BOLD,20));
-        labelfName.setBounds(100,240,100,30);
+        labelfName.setBounds(100,240,200,30);
         add(labelfName);
 
         textFname = new JTextField();

@@ -1,6 +1,8 @@
 package bank.management.system;
 
-public class signUp {
+import javax.swing.*;
+
+public class signUp extends JFrame {
     public static void main(String[] args) {
 
     }

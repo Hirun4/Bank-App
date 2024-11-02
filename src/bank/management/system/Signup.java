@@ -26,11 +26,12 @@ public class Signup extends JFrame {
         add(label1);
 
         JLabel label2 = new JLabel("page 1");
-        label2.setFont(new Font("Ralway",Font.BOLD,22));
+        label2.setFont(new Font("Raleway",Font.BOLD,22));
         label2.setBounds(330,70,600,30);
         add(label2);
 
         JLabel label3 =new JLabel("Personal Details");
+        label3.setFont(new Font("Raleway",Font.BOLD,22));
 
 
 

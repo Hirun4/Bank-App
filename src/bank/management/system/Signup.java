@@ -15,6 +15,7 @@ public class Signup extends JFrame {
         add(image);
 
         JLabel label1= new JLabel("APPLICATION FORM NO.");
+        label1.setBounds(160,20,600,40);
 
 
 

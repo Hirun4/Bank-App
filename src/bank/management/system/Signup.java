@@ -8,6 +8,8 @@ public class Signup extends JFrame {
 
     Random ran = new Random();
 
+    long first4 = (ran.nextLong() % 9000L) + 1000L;
+
     Signup(){
         super("APPLICATION FORM");
         ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icon/bank.png"));

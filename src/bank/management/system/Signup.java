@@ -37,6 +37,7 @@ public class Signup extends JFrame {
 
 
         JLabel labelName = new JLabel("Name");
+        labelName.setFont(new Font("Raleway",Font.BOLD,20));
 
 
 

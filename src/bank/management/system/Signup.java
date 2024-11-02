@@ -9,6 +9,7 @@ public class Signup extends JFrame {
     Random ran = new Random();
 
     long first4 = (ran.nextLong() % 9000L) + 1000L;
+    String first = "" + Math.abs(first4);
 
     Signup(){
         super("APPLICATION FORM");

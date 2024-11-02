@@ -5,6 +5,7 @@ import java.awt.*;
 import java.util.Random;
 
 public class Signup extends JFrame {
+    JTextField textName;
 
     Random ran = new Random();
 
@@ -40,6 +41,8 @@ public class Signup extends JFrame {
         labelName.setFont(new Font("Raleway",Font.BOLD,20));
         labelName.setBounds(100,190,100,30);
         add(labelName);
+
+        textName = new JTextField();
 
 
 

@@ -44,7 +44,7 @@ public class Signup extends JFrame {
 
         textName = new JTextField();
         textName.setFont(new Font("Raleway",Font.BOLD,14));
-        textName.setBounds(100,240,200,30);
+        textName.setBounds(300,190,200,30);
         add(textName);
 
 

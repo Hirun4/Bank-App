@@ -2,8 +2,11 @@ package bank.management.system;
 
 import javax.swing.*;
 import java.awt.*;
+import java.util.Random;
 
 public class Signup extends JFrame {
+
+    Random ran = new Random();
 
     Signup(){
         super("APPLICATION FORM");

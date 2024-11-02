@@ -47,7 +47,7 @@ public class Signup extends JFrame {
         textName.setBounds(300,190,400,30);
         add(textName);
 
-        JLabel labelfName = new JLabel("Name:");
+        JLabel labelfName = new JLabel("Father's Name:");
         labelfName.setFont(new Font("Raleway",Font.BOLD,20));
         labelfName.setBounds(100,190,100,30);
         add(labelfName);

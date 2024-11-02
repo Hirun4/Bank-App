@@ -20,7 +20,7 @@ public class Signup extends JFrame {
         image.setBounds(25,10,100,100);
         add(image);
 
-        JLabel label1= new JLabel("APPLICATION FORM NO.");
+        JLabel label1= new JLabel("APPLICATION FORM NO."+ first);
         label1.setBounds(160,20,600,40);
         label1.setFont(new Font("Raleway",Font.BOLD,38));
         add(label1);

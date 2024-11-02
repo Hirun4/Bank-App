@@ -43,6 +43,7 @@ public class Signup extends JFrame {
         add(labelName);
 
         textName = new JTextField();
+        textName.setFont(new Font("Raleway",Font.BOLD,14));
 
 
 

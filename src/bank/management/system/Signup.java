@@ -1,5 +1,7 @@
 package bank.management.system;
 
+import com.toedter.calendar.JDateChooser;
+
 import javax.swing.*;
 import java.awt.*;
 import java.util.Random;
@@ -7,6 +9,7 @@ import java.util.Random;
 public class Signup extends JFrame {
     JTextField textName,textFname;
     JDateChooser dateChooser;
+
 
     Random ran = new Random();
 

@@ -5,7 +5,7 @@ import javax.swing.*;
 public class Signup extends JFrame {
 
     Signup(){
-        setLayout(Null);
+        setLayout(null);
         setSize(850,800);
         setLocation(360,40);
         setVisible(true);

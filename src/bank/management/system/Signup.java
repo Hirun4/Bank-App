@@ -30,6 +30,8 @@ public class Signup extends JFrame {
         label2.setBounds(330,70,600,30);
         add(label2);
 
+        JLabel label3 =new JLabel("Personal Details");
+
 
 
 

@@ -39,12 +39,12 @@ public class Signup extends JFrame {
 
         JLabel labelName = new JLabel("Name");
         labelName.setFont(new Font("Raleway",Font.BOLD,20));
-        labelName.setBounds(200,190,100,30);
+        labelName.setBounds(100,190,100,30);
         add(labelName);
 
         textName = new JTextField();
         textName.setFont(new Font("Raleway",Font.BOLD,14));
-        textName.setBounds(300,190,200,30);
+        textName.setBounds(300,190,400,30);
         add(textName);
 
 

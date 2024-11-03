@@ -88,6 +88,8 @@ public class Signup extends JFrame {
         r2.setBounds(450,290,90,30);
         add(r2);
 
+        ButtonGroup buttonGroup= new ButtonGroup();
+
 
 
 

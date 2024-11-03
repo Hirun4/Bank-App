@@ -134,7 +134,7 @@ public class Signup extends JFrame {
         textCity.setBounds(300,540,400,30);
         add(textCity);
 
-        JLabel labelPin = new JLabel("City :");
+        JLabel labelPin = new JLabel("Pin Code :");
         labelPin.setFont(new Font("Raleway",Font.BOLD,20));
         labelPin.setBounds(100,540,200,30);
         add(labelPin);

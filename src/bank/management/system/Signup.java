@@ -176,6 +176,8 @@ public class Signup extends JFrame {
         add(textState);
 
         next = new JButton("Next");
+        next.setFont(new Font("Raleway",Font.BOLD,14));
+
 
 
 

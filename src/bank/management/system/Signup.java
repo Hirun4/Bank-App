@@ -96,7 +96,7 @@ public class Signup extends JFrame {
 
         JLabel labelEmail = new JLabel("Email address");
         labelEmail.setFont(new Font("Raleway",Font.BOLD,20));
-        labelEmail.setBounds(100,290,200,30);
+        labelEmail.setBounds(100,390,200,30);
         add(labelEmail);
 
 

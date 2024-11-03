@@ -123,6 +123,7 @@ public class Signup extends JFrame {
 
         m3 = new JRadioButton("Other");
         m3.setBounds(635,440,100,30);
+        m3.setBackground(new Color(222,255,228));
         m3.setFont(new Font("Raleway",Font.BOLD,14));
         add(m3);
 

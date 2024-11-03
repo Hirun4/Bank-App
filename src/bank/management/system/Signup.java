@@ -130,9 +130,9 @@ public class Signup extends JFrame {
         add(labelCity);
 
         textCity = new JTextField();
-        textAdd.setFont(new Font("Raleway",Font.BOLD,14));
-        textAdd.setBounds(300,530,400,30);
-        add(textAdd);
+        textCity.setFont(new Font("Raleway",Font.BOLD,14));
+        textCity.setBounds(300,530,400,30);
+        add(textCity);
 
 
 

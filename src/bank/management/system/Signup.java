@@ -109,10 +109,10 @@ public class Signup extends JFrame {
         labelMs.setBounds(100,440,200,30);
         add(labelMs);
 
-        textEmail = new JTextField();
-        textEmail.setFont(new Font("Raleway",Font.BOLD,14));
-        textEmail.setBounds(300,440,400,30);
-        add(textEmail);
+        textMs = new JTextField();
+        textMs.setFont(new Font("Raleway",Font.BOLD,14));
+        textMs.setBounds(300,440,400,30);
+        add(textMs);
 
 
 

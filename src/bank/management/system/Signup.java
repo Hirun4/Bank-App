@@ -78,6 +78,8 @@ public class Signup extends JFrame {
         labelG.setBounds(100,390,200,30);
         add(labelG);
 
+        r1= new JRadioButton("Male");
+
 
 
 

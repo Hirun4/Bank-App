@@ -119,7 +119,7 @@ public class Signup extends JFrame {
         m2.setFont(new Font("Raleway",Font.BOLD,14));
         add(m2);
 
-        m3 = new JRadioButton("Married");
+        m3 = new JRadioButton("unmarried");
         m3.setBounds(300,440,100,30);
         m3.setFont(new Font("Raleway",Font.BOLD,14));
         add(m3);

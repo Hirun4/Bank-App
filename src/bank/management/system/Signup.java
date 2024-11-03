@@ -136,12 +136,12 @@ public class Signup extends JFrame {
 
         JLabel labelPin = new JLabel("Pin Code :");
         labelPin.setFont(new Font("Raleway",Font.BOLD,20));
-        labelPin.setBounds(100,540,200,30);
+        labelPin.setBounds(100,590,200,30);
         add(labelPin);
 
         textPin = new JTextField();
         textPin.setFont(new Font("Raleway",Font.BOLD,14));
-        textPin.setBounds(300,540,400,30);
+        textPin.setBounds(300,590,400,30);
         add(textPin);
 
 

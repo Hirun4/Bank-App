@@ -139,10 +139,10 @@ public class Signup extends JFrame {
         labelPin.setBounds(100,590,200,30);
         add(labelPin);
 
-        textPin = new JTextField();
-        textPin.setFont(new Font("Raleway",Font.BOLD,14));
-        textPin.setBounds(300,590,400,30);
-        add(textPin);
+        textCity = new JTextField();
+        textCity.setFont(new Font("Raleway",Font.BOLD,14));
+        textCity.setBounds(300,590,400,30);
+        add(textCity);
 
         JLabel labelState = new JLabel("Pin Code :");
         labelState.setFont(new Font("Raleway",Font.BOLD,20));

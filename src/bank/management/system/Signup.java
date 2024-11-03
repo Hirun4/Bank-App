@@ -115,9 +115,9 @@ public class Signup extends JFrame {
         add(textMs);
 
         JLabel labelAdd = new JLabel("Marital status :");
-        labelMs.setFont(new Font("Raleway",Font.BOLD,20));
-        labelMs.setBounds(100,440,200,30);
-        add(labelMs);
+        labelAdd.setFont(new Font("Raleway",Font.BOLD,20));
+        labelAdd.setBounds(100,440,200,30);
+        add(labelAdd);
 
         textMs = new JTextField();
         textMs.setFont(new Font("Raleway",Font.BOLD,14));

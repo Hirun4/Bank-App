@@ -175,6 +175,8 @@ public class Signup extends JFrame {
         textState.setBounds(300,640,400,30);
         add(textState);
 
+        next = new JButton("Next");
+
 
 
         getContentPane().setBackground(new Color(222,255,228));

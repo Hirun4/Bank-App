@@ -75,7 +75,7 @@ public class Signup extends JFrame {
 
         JLabel labelG = new JLabel("Gender");
         labelG.setFont(new Font("Raleway",Font.BOLD,20));
-        labelG.setBounds(100,390,200,30);
+        labelG.setBounds(100,290,200,30);
         add(labelG);
 
         r1= new JRadioButton("Male");

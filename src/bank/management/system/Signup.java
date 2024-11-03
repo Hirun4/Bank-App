@@ -110,6 +110,7 @@ public class Signup extends JFrame {
         add(labelMs);
 
         m1 = new JRadioButton("Married");
+        m1.setBounds(300,440,100,30);
 
 
 

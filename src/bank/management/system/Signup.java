@@ -80,6 +80,7 @@ public class Signup extends JFrame {
 
         r1= new JRadioButton("Male");
         r1.setFont(new Font("Ralewy",Font.BOLD,14));
+        r1.setBackground(new Color(222,255,228));
         r1.setBounds(300,290,60,30);
         add(r1);
 

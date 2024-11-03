@@ -179,6 +179,7 @@ public class Signup extends JFrame {
         next.setFont(new Font("Raleway",Font.BOLD,14));
         next.setBackground(Color.BLACK);
         next.setForeground(Color.WHITE);
+        next.setBounds(620,710,80,30);
 
 
 

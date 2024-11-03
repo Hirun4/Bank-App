@@ -126,12 +126,12 @@ public class Signup extends JFrame {
 
         JLabel labelCity = new JLabel("City :");
         labelCity.setFont(new Font("Raleway",Font.BOLD,20));
-        labelCity.setBounds(100,490,200,30);
+        labelCity.setBounds(100,530,200,30);
         add(labelCity);
 
         textAdd = new JTextField();
         textAdd.setFont(new Font("Raleway",Font.BOLD,14));
-        textAdd.setBounds(300,490,400,30);
+        textAdd.setBounds(300,530,400,30);
         add(textAdd);
 
 

@@ -70,6 +70,7 @@ public class Signup extends JFrame {
         dateChooser = new JDateChooser();
         dateChooser.setForeground(new Color(105,105,105));
         dateChooser.setBounds(300,340,400,30);
+        add(dateChooser);
 
 
 

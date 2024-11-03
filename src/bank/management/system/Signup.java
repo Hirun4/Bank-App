@@ -7,7 +7,7 @@ import java.awt.*;
 import java.util.Random;
 
 public class Signup extends JFrame {
-    JRadioButton r1;
+    JRadioButton r1,r2;
     JTextField textName,textFname;
     JDateChooser dateChooser;
 
@@ -77,6 +77,8 @@ public class Signup extends JFrame {
         labelG.setFont(new Font("Raleway",Font.BOLD,20));
         labelG.setBounds(100,390,200,30);
         add(labelG);
+
+
 
 
 

@@ -124,6 +124,8 @@ public class Signup extends JFrame {
         m3.setFont(new Font("Raleway",Font.BOLD,14));
         add(m3);
 
+        ButtonGroup buttonGroup1 = new ButtonGroup();
+
 
 
 

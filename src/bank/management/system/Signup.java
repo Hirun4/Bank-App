@@ -120,7 +120,7 @@ public class Signup extends JFrame {
         add(m2);
 
         m3 = new JRadioButton("Other");
-        m3.setBounds(6350,440,100,30);
+        m3.setBounds(635,440,100,30);
         m3.setFont(new Font("Raleway",Font.BOLD,14));
         add(m3);
 

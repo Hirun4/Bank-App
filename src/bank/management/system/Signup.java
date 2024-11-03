@@ -100,7 +100,7 @@ public class Signup extends JFrame {
         add(labelEmail);
 
         textEmail = new JTextField();
-        textFname.setFont(new Font("Raleway",Font.BOLD,14));
+        textEmail.setFont(new Font("Raleway",Font.BOLD,14));
         textFname.setBounds(300,240,400,30);
         add(textFname);
 

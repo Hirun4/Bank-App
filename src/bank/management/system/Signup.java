@@ -79,6 +79,7 @@ public class Signup extends JFrame {
         add(labelG);
 
         r1= new JRadioButton("Male");
+        r1.setFont(new Font("Ralewy",Font.BOLD,14));
 
 
 

@@ -90,6 +90,7 @@ public class Signup extends JFrame {
 
         ButtonGroup buttonGroup= new ButtonGroup();
         buttonGroup.add(r1);
+        buttonGroup.add(r2);
 
 
 

@@ -64,7 +64,7 @@ public class Signup extends JFrame {
 
         JLabel DOB = new JLabel("Date Of Birth :");
         DOB.setFont(new Font("Raleway",Font.BOLD,20));
-        DOB.setBounds(100,240,200,30);
+        DOB.setBounds(100,340,200,30);
         add(DOB);
 
         dateChooser = new JDateChooser();

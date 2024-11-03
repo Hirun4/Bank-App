@@ -8,7 +8,7 @@ import java.util.Random;
 
 public class Signup extends JFrame {
     JRadioButton r1,r2;
-    JTextField textName,textFname,textEmail,textMs,textAdd;
+    JTextField textName,textFname,textEmail,textMs,textAdd,textCity;
     JDateChooser dateChooser;
 
 
@@ -129,7 +129,7 @@ public class Signup extends JFrame {
         labelCity.setBounds(100,530,200,30);
         add(labelCity);
 
-        textAdd = new JTextField();
+        textCity = new JTextField();
         textAdd.setFont(new Font("Raleway",Font.BOLD,14));
         textAdd.setBounds(300,530,400,30);
         add(textAdd);

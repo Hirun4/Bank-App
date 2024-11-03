@@ -4,9 +4,10 @@ import com.toedter.calendar.JDateChooser;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionListener;
 import java.util.Random;
 
-public class Signup extends JFrame {
+public class Signup extends JFrame implements ActionListener {
     JRadioButton r1,r2,m1,m2,m3;
 
     JButton next;

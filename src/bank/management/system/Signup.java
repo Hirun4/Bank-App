@@ -180,6 +180,7 @@ public class Signup extends JFrame {
         next.setBackground(Color.BLACK);
         next.setForeground(Color.WHITE);
         next.setBounds(620,710,80,30);
+        add(next);
 
 
 

@@ -8,7 +8,7 @@ import java.util.Random;
 
 public class Signup extends JFrame {
     JRadioButton r1,r2;
-    JTextField textName,textFname,textEmail;
+    JTextField textName,textFname,textEmail,textMs;
     JDateChooser dateChooser;
 
 

@@ -73,6 +73,8 @@ public class Signup extends JFrame {
         add(dateChooser);
 
         JLabel labelG = new JLabel("Gender");
+        labelG.setFont(new Font("Raleway",Font.BOLD,20));
+        labelG.setBounds(100,390,200,30);
 
 
 

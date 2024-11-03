@@ -83,6 +83,13 @@ public class Signup extends JFrame {
         r1.setBounds(300,290,60,30);
         add(r1);
 
+        r2= new JRadioButton("Female");
+        r2.setFont(new Font("Ralewy",Font.BOLD,14));
+        r2.setBounds(300,290,60,30);
+        add(r2);
+
+
+
 
 
 

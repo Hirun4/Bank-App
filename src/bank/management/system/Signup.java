@@ -67,6 +67,8 @@ public class Signup extends JFrame {
         DOB.setBounds(100,240,200,30);
         add(DOB);
 
+        dateChooser = new JDateChooser();
+
 
 
 

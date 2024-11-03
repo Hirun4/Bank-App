@@ -130,10 +130,6 @@ public class Signup extends JFrame {
         buttonGroup1.add(m3);
 
 
-
-
-
-
         JLabel labelAdd = new JLabel("Address :");
         labelAdd.setFont(new Font("Raleway",Font.BOLD,20));
         labelAdd.setBounds(100,490,200,30);

@@ -109,6 +109,8 @@ public class Signup extends JFrame {
         labelMs.setBounds(100,440,200,30);
         add(labelMs);
 
+        m1 = new JRadioButton("Married");
+
 
 
         JLabel labelAdd = new JLabel("Address :");

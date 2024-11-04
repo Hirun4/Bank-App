@@ -222,6 +222,7 @@ public class Signup extends JFrame implements ActionListener {
         }
 
         String  address = textAdd.getText();
+        String  city = textCity.getText();
 
             
 

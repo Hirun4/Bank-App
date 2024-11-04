@@ -201,10 +201,10 @@ public class Signup extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         String formno = first;
         String name = textName.getText();
-        String fname =textFname.getText();
+        String fname = textFname.getText();
         String dob = ((JTextField) dateChooser.getDateEditor().getUiComponent()).getText();
         String gender = null;
-        if (r1.isSelected()){
+        if (r1.isSelected()) {
             gender = "Male";
         } else if (r2.isSelected()) {
             gender = "Female";
@@ -213,25 +213,27 @@ public class Signup extends JFrame implements ActionListener {
 
         String email = textEmail.getText();
         String marital = null;
-        if (m1.isSelected()){
+        if (m1.isSelected()) {
             marital = "Married";
         } else if (m2.isSelected()) {
             marital = "Unmarried";
         } else if (m3.isSelected()) {
-            marital ="other";
+            marital = "other";
         }
 
-        String  address = textAdd.getText();
-        String  city = textCity.getText();
+        String address = textAdd.getText();
+        String city = textCity.getText();
         String pincode = textPin.getText();
         String state = textState.getText();
 
-            
+        try {
 
 
+        } catch (Exception E) {
+            E.printStackTrace();
 
+        }
     }
-
     public static void main(String[] args) {
     new Signup();
     }

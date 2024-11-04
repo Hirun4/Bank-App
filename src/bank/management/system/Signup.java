@@ -208,7 +208,7 @@ public class Signup extends JFrame implements ActionListener {
             gender = "Male";
         } else if (r2.isSelected()) {
             gender = "Female";
-        }
+        }eslse if(r3.is)
         String email = textEmail.getText();
 
 

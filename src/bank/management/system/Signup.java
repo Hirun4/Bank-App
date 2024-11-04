@@ -201,6 +201,7 @@ public class Signup extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         String formno = first;
         String name = textName.getText();
+        String fname =textFname.getText();
 
 
     }

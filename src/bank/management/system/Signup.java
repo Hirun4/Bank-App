@@ -217,10 +217,12 @@ public class Signup extends JFrame implements ActionListener {
             marital = "Married";
         } else if (m2.isSelected()) {
             marital = "Unmarried";
+        } else if (m3.isSelected()) {
+            marital ="other";
         }
-        {
+
             
-        }
+
 
 
     }

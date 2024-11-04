@@ -203,6 +203,7 @@ public class Signup extends JFrame implements ActionListener {
         String name = textName.getText();
         String fname =textFname.getText();
         String dob = ((JTextField) dateChooser.getDateEditor().getUiComponent()).getText();
+        String gender = null;
 
 
     }

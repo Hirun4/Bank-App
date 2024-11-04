@@ -1,8 +1,9 @@
 package bank.management.system;
 
-import java.beans.Statement;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.Statement;
 
 public class newCon {
     Connection connection;
@@ -14,6 +15,7 @@ public class newCon {
 
         try{
             connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/bankSystem","root", "Hirun500#%");
+            statement = connection.createStatement();
 
         }catch(Exception e){
             e.printStackTrace();

@@ -12,7 +12,7 @@ public class Signup extends JFrame implements ActionListener {
     JRadioButton r1,r2,m1,m2,m3;
 
     JButton next;
-    JTextField textName,textFname,textEmail,textAdd,textCity,textState;
+    JTextField textName,textFname,textEmail,textAdd,textCity,textState,textPin;
     JDateChooser dateChooser;
 
 
@@ -162,10 +162,10 @@ public class Signup extends JFrame implements ActionListener {
         labelPin.setBounds(100,590,200,30);
         add(labelPin);
 
-        textCity = new JTextField();
-        textCity.setFont(new Font("Raleway",Font.BOLD,14));
-        textCity.setBounds(300,590,400,30);
-        add(textCity);
+        textPin = new JTextField();
+        textPin.setFont(new Font("Raleway",Font.BOLD,14));
+        textPin.setBounds(300,590,400,30);
+        add(textPin);
 
         JLabel labelState = new JLabel("State :");
         labelState.setFont(new Font("Raleway",Font.BOLD,20));

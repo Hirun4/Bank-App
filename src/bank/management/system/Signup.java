@@ -231,7 +231,7 @@ public class Signup extends JFrame implements ActionListener {
                 JOptionPane.showMessageDialog(null,"Fill all the fields");
             }else {
                 newCon con1 = new newCon();
-                String q = "insert into signup values('"+formno+"','"+name+"','"+fname+"','"+dob+"','"++"')"
+                String q = "insert into signup values('"+formno+"','"+name+"','"+fname+"','"+dob+"','"+gender+"',)"
             }
 
 

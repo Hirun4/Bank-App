@@ -221,6 +221,8 @@ public class Signup extends JFrame implements ActionListener {
             marital ="other";
         }
 
+        String  address = textAdd.getText();
+
             
 
 

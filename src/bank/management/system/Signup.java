@@ -200,6 +200,7 @@ public class Signup extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         String formno = first;
+        String name = textName.getText();
 
 
     }

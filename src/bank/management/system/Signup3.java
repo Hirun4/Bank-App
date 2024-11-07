@@ -188,7 +188,7 @@ public class Signup3 extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         String atype = null;
-        if(r1.isSelected()){
+        if (r1.isSelected()) {
             atype = "Saving Account";
         } else if (r2.isSelected()) {
             atype = "Fixed Deposit Account";
@@ -205,7 +205,7 @@ public class Signup3 extends JFrame implements ActionListener {
         String pin = "" + Math.abs(first3);
 
         String fac = "";
-        if (c1.isSelected()){
+        if (c1.isSelected()) {
             fac = fac + "ATM_CARD";
 
         } else if (c2.isSelected()) {
@@ -220,28 +220,28 @@ public class Signup3 extends JFrame implements ActionListener {
             fac = fac + "E-Statement";
         }
 
-        try{
-     if (e.getSource() ==s){
-         if (atype.equals("")){
-             JOptionPane.showMessageDialog(null,"Fill all the fields");
-         }else {
-             newCon c1 = new newCon();
-             String q1 = "insert into signupthree values('"+formno+"', '"+atype+"', '"+cardno+"' ,'"+pin+"', '"+fac+"')";
-             String q2 = "insert into login values('"+formno+"', '"+cardno+"', '"+pin+"')";
-             c1.statement.executeUpdate(q1);
-             c1.statement.executeUpdate(q2);
-             JOptionPane.showMessageDialog(null,"Card Number :"+cardno+"\n Pin :"+pin);
-             setVisible(false);
-         }
-     } else if (e.getSource()==c) {
-         System.exit(0);
-     }
+        try {
+            if (e.getSource() == s) {
+                if (atype.equals("")) {
+                    JOptionPane.showMessageDialog(null, "Fill all the fields");
+                } else {
+                    newCon c1 = new newCon();
+                    String q1 = "insert into signupthree values('" + formno + "', '" + atype + "', '" + cardno + "' ,'" + pin + "', '" + fac + "')";
+                    String q2 = "insert into login values('" + formno + "', '" + cardno + "', '" + pin + "')";
+                    c1.statement.executeUpdate(q1);
+                    c1.statement.executeUpdate(q2);
+                    JOptionPane.showMessageDialog(null, "Card Number :" + cardno + "\n Pin :" + pin);
+                    setVisible(false);
+                }
+            } else if (e.getSource() == c) {
+                System.exit(0);
+            }
 
 
-        }catch(Exception E){
+        } catch (Exception E) {
             E.printStackTrace();
         }
-
+    }
     public static void main(String[] args) {
         new Signup3("");
 

@@ -206,6 +206,7 @@ public class Signup3 extends JFrame implements ActionListener {
 
         String fac = "";
         if (c1.isSelected()){
+            fac = "ATM_CARD";
 
         }
 

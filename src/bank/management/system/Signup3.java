@@ -233,10 +233,12 @@ public class Signup3 extends JFrame implements ActionListener {
              JOptionPane.showMessageDialog(null,"Card Number :"+cardno+"\n Pin :"+pin);
              setVisible(false);
          }
+     } else if (e.getSource()==c) {
+         System.exit(0);
      }
 
 
-    }catch(Exception E){
+        }catch(Exception E){
             E.printStackTrace();
         }
 

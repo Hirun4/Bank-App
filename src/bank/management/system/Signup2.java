@@ -6,7 +6,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Signup2 extends JFrame implements ActionListener {
-    JComboBox comboBox,comboBox2,comboBox3,comboBox4;
+    JComboBox comboBox,comboBox2,comboBox3,comboBox4,comboBox5;
     JTextField textPan,textAadhar;
     JRadioButton r1,r2, e1,e2;
     JButton next;
@@ -89,11 +89,11 @@ public class Signup2 extends JFrame implements ActionListener {
         add(l7);
 
         String Occupation [] = {"Salaried","Self-Employeed","Business","Student","Retired","Other"};
-        comboBox4 = new JComboBox(Occupation);
-        comboBox4.setBackground(new Color(252,208,76));
-        comboBox4.setFont(new Font("Raleway",Font.BOLD,14));
-        comboBox4.setBounds(350,340,320,30);
-        add(comboBox4);
+        comboBox5 = new JComboBox(Occupation);
+        comboBox5.setBackground(new Color(252,208,76));
+        comboBox5.setFont(new Font("Raleway",Font.BOLD,14));
+        comboBox5.setBounds(350,340,320,30);
+        add(comboBox5);
 
         JLabel l8 = new JLabel("PAN Number : ");
         l8.setFont(new Font("Raleway",Font.BOLD,18));
@@ -186,6 +186,7 @@ public class Signup2 extends JFrame implements ActionListener {
      String cat = (String) comboBox2.getSelectedItem();
      String inc = (String) comboBox3.getSelectedItem();
      String edu = (String) comboBox4.getSelectedItem();
+     String occ = (String) comboBox5.getSelectedItem();
 
     }
 

@@ -205,6 +205,12 @@ public class Signup2 extends JFrame implements ActionListener {
             eAccount = "No";
         }
 
+        try {
+
+        }catch(Exception E){
+        E.printStackTrace();
+        }
+
 
 
     }

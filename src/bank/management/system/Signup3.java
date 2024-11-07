@@ -220,8 +220,12 @@ public class Signup3 extends JFrame implements ActionListener {
             fac = fac + "E-Statement";
         }
 
+        try{
 
-    }
+
+    }catch (Exception E){
+            E.printStackTrace();
+        }
 
     public static void main(String[] args) {
         new Signup3("");

@@ -206,6 +206,9 @@ public class Signup2 extends JFrame implements ActionListener {
         }
 
         try {
+            if (textPan.getText().equals("") || textAadhar.getText().equals("")){
+
+            }
 
         }catch(Exception E){
         E.printStackTrace();

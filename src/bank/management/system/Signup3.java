@@ -213,7 +213,9 @@ public class Signup3 extends JFrame implements ActionListener {
         } else if (c3.isSelected()) {
             fac = fac + "Mobile Banking";
         } else if (c4.isSelected()) {
-            fac = fac + "Email Alerts";
+            fac = fac + "EMAIL Alerts";
+        } else if (c5.isSelected()) {
+            fac = fac + "Cheque Book";
         }
 
 

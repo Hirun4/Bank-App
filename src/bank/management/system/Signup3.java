@@ -222,7 +222,9 @@ public class Signup3 extends JFrame implements ActionListener {
 
         try{
 if (e.getSource() ==s){
-
+if (atype.equals("")){
+    JOptionPane.showMessageDialog(null,"Fill all the fields");
+}
 }
 
     }catch (Exception E){

@@ -209,7 +209,7 @@ public class Signup3 extends JFrame implements ActionListener {
             fac = fac + "ATM_CARD";
 
         } else if (c2.isSelected()) {
-
+            fac = fac + "Internet Banking";
         }
 
 

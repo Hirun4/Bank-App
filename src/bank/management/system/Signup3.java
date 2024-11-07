@@ -4,6 +4,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Random;
+
 //signup 3
 public class Signup3 extends JFrame implements ActionListener {
 
@@ -195,6 +197,8 @@ public class Signup3 extends JFrame implements ActionListener {
         } else if (r4.isSelected()) {
             atype = "Recurring Deposit Account";
         }
+
+        Random ran = new Random();
 
 
 

@@ -190,6 +190,7 @@ public class Signup2 extends JFrame implements ActionListener {
 
      String pan = textPan.getText();
      String addhar = textAadhar.getText();
+     String scitizen = null;
 
     }
 

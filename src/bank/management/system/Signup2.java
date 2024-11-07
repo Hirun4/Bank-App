@@ -215,6 +215,7 @@ public class Signup2 extends JFrame implements ActionListener {
                 c1.statement.executeUpdate(q);
                 new Signup3(formno);
                 setVisible(false);
+                //signup 2 complete
             }
 
         }catch(Exception E){

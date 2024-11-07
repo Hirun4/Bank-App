@@ -132,7 +132,7 @@ public class Signup2 extends JFrame implements ActionListener {
         r2.setBounds(460,490,100,30);
         add(r2);
 
-        JLabel l11 = new JLabel("Senior Citizen : ");
+        JLabel l11 = new JLabel("Existing Account : ");
         l11.setFont(new Font("Raleway",Font.BOLD,18));
         l11.setBounds(100,540,180,30);
         add(l11);
@@ -182,7 +182,8 @@ public class Signup2 extends JFrame implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-     String rel = comboBox.getSelectedItem();
+//     String rel = comboBox.getSelectedItem();
+
     }
 
     public static void main(String[] args) {

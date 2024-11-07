@@ -207,7 +207,10 @@ public class Signup2 extends JFrame implements ActionListener {
 
         try {
             if (textPan.getText().equals("") || textAadhar.getText().equals("")){
+                JOptionPane.showMessageDialog(null,"fill all the fields");
 
+            }else{
+                newCon c1 = new newCon();
             }
 
         }catch(Exception E){

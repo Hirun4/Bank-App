@@ -188,6 +188,10 @@ public class Signup3 extends JFrame implements ActionListener {
         String atype = null;
         if(r1.isSelected()){
             atype = "Saving Account";
+        } else if (r2.isSelected()) {
+            atype = "Fixed Deposit Account";
+        } else if (r3.isSelected()) {
+            atype = "Current Account";
         }
     }
 

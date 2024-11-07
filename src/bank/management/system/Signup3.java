@@ -226,6 +226,7 @@ public class Signup3 extends JFrame implements ActionListener {
              JOptionPane.showMessageDialog(null,"Fill all the fields");
          }else {
              newCon c1 = new newCon();
+             String q1 = "insert into signupthree values"
          }
      }
 

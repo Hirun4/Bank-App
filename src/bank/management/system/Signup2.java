@@ -189,6 +189,7 @@ public class Signup2 extends JFrame implements ActionListener {
      String occ = (String) comboBox5.getSelectedItem();
 
      String pan = textPan.getText();
+     String addhar = textAadhar.getText();
 
     }
 

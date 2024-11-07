@@ -183,7 +183,7 @@ public class Signup2 extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
      String rel = (String)comboBox.getSelectedItem();
-     String cat = (String) comboBox2.getSelectedItem();
+     String cate = (String) comboBox2.getSelectedItem();
      String inc = (String) comboBox3.getSelectedItem();
      String edu = (String) comboBox4.getSelectedItem();
      String occ = (String) comboBox5.getSelectedItem();
@@ -211,7 +211,7 @@ public class Signup2 extends JFrame implements ActionListener {
 
             }else{
                 newCon c1 = new newCon();
-                String q= "insert into Signuptwo values('"+formno+"','"+rel+"')";
+                String q= "insert into Signuptwo values('"+formno+"','"+rel+"', '"+cate+"', '"+inc+"', '"+edu+"', '"+occ+"', '"+pan+"','"+addhar+"', '"+scitizen+"', '"+eAccount+"')";
             }
 
         }catch(Exception E){

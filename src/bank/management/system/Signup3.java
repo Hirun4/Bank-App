@@ -204,6 +204,8 @@ public class Signup3 extends JFrame implements ActionListener {
         long first3 = (ran.nextLong() % 9000L) + 1000L;
         String pin = "" + Math.abs(first3);
 
+        String fac = "";
+
 
 
 

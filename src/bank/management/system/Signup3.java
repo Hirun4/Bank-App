@@ -186,6 +186,9 @@ public class Signup3 extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         String atype = null;
+        if(r1.isSelected()){
+            atype = "Saving Account";
+        }
     }
 
     public static void main(String[] args) {

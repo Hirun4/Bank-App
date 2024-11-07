@@ -205,6 +205,9 @@ public class Signup3 extends JFrame implements ActionListener {
         String pin = "" + Math.abs(first3);
 
         String fac = "";
+        if (c1.isSelected()){
+
+        }
 
 
 

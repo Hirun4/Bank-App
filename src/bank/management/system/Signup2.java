@@ -184,6 +184,8 @@ public class Signup2 extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent e) {
      String rel = (String)comboBox.getSelectedItem();
      String cat = (String) comboBox2.getSelectedItem();
+     String inc = (String) comboBox3.getSelectedItem();
+     String edu = (String) comboBox4.getSelectedItem();
 
     }
 

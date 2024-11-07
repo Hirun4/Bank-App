@@ -227,6 +227,7 @@ public class Signup3 extends JFrame implements ActionListener {
          }else {
              newCon c1 = new newCon();
              String q1 = "insert into signupthree values('"+formno+"', '"+atype+"', '"+cardno+"' ,'"+pin+"', '"+fac+"')";
+             String q2 = "insert into login values()";
          }
      }
 

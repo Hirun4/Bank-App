@@ -10,7 +10,10 @@ public class Signup3 extends JFrame implements ActionListener {
     JRadioButton r1,r2,r3,r4;
     JCheckBox c1,c2,c3,c4,c5,c6;
     JButton s,c;
-    Signup3(){
+
+    String formno;
+    Signup3(formno){
+        this.formno = formno;
         ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icon/bank.png"));
         Image i2 = i1.getImage().getScaledInstance(100,100,Image.SCALE_DEFAULT);
         ImageIcon i3 = new ImageIcon(i2);

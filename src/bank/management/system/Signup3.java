@@ -184,7 +184,7 @@ public class Signup3 extends JFrame implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        
+        String atype = null;
     }
 
     public static void main(String[] args) {

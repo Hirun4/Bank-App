@@ -193,6 +193,8 @@ public class Signup2 extends JFrame implements ActionListener {
      String scitizen = "";
      if ((r1.isSelected())){
          scitizen = "Yes";
+     } else if ((r2.isSelected())) {
+         scitizen = "No";
      }
 
 

@@ -221,7 +221,9 @@ public class Signup3 extends JFrame implements ActionListener {
         }
 
         try{
+if (e.getSource() ==s){
 
+}
 
     }catch (Exception E){
             E.printStackTrace();

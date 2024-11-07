@@ -163,6 +163,7 @@ public class Signup3 extends JFrame implements ActionListener {
         s.setBackground(Color.BLACK);
         s.setForeground(Color.WHITE);
         s.setBounds(250,720,100,30);
+        s.addActionListener(this);
         add(s);
 
         c = new JButton("Cancel");

@@ -195,6 +195,9 @@ public class Signup3 extends JFrame implements ActionListener {
         } else if (r4.isSelected()) {
             atype = "Recurring Deposit Account";
         }
+
+
+
     }
 
     public static void main(String[] args) {

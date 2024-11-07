@@ -206,12 +206,11 @@ public class Signup3 extends JFrame implements ActionListener {
 
         String fac = "";
         if (c1.isSelected()){
-            fac = "ATM_CARD";
+            fac = fac + "ATM_CARD";
+
+        } else if (c2.isSelected()) {
 
         }
-
-
-
 
 
     }

@@ -28,4 +28,4 @@ bin/
 ### Mac OS ###
 .DS_Store
 
-newCon
+/src/bank/management/system/newCon.java

@@ -12,7 +12,7 @@ public class newCon {
     public newCon(){
 
         try{
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/bankSystem","root", "jayathu");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/bankSystem","root", "Hirun400#%");
             statement = connection.createStatement();
 
         }catch(Exception e){

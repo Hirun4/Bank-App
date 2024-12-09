@@ -32,7 +32,7 @@ public class main_Class extends JFrame implements ActionListener {
         b1.addActionListener(this);
         l3.add(b1);
 
-        b2 = new JButton("CASH WITHDRAW");
+        b2 = new JButton("CASH WITHDRAWL");
         b2.setForeground(Color.WHITE);
         b2.setBackground(new Color(65,125,128));
         b2.setBounds(700,274,150,35);
@@ -90,6 +90,14 @@ public class main_Class extends JFrame implements ActionListener {
 
         } else if (e.getSource()==b7) {
             System.exit(0);
+        } else if (e.getSource()==b2) {
+            new  Withdrawl(pin);
+            setVisible(false);
+            
+        } else if (e.getSource()==b6) {
+            new BalanceEnquriy(pin);
+            setVisible(false);
+            
         }
     }
 

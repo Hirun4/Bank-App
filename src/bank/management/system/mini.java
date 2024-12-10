@@ -30,6 +30,14 @@ public class mini extends JFrame {
         add(label4);
 
 
+        try {
+
+
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+
+
 
 
 

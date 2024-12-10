@@ -53,7 +53,7 @@ public class mini extends JFrame {
 
             while(resultSet.next()){
 
-                label1.setText(label1.getText() + "<html>" +resultSet.getString("date")+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+resultSet.getString("type")+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;");
+                label1.setText(label1.getText() + "<html>" +resultSet.getString("date")+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+resultSet.getString("type")+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+resultSet.getString("amount")+ "<br><br><html>");
                 if(resultSet.getString("type").equals("Deposit")){
                     balance += Integer.parseInt(resultSet.getString("amount"));
                 }else {

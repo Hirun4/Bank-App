@@ -10,7 +10,15 @@ public class mini extends JFrame {
         getContentPane().setBackground(new Color(255,204,204));
         setSize(400,600);
         setLocation(20,20);
-        setLocale(null);
+        setLayout(null);
+
+        JLabel label1= new JLabel();
+        label1.setBounds(20,140,400,20);
+
+
+
+
+
         setVisible(true);
 
     }

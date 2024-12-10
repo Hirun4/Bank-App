@@ -59,7 +59,9 @@ public class mini extends JFrame {
                 }else {
                     balance -= Integer.parseInt(resultSet.getString("amount"));
                 }
-            }String num ="17";
+            }
+
+            label4.setText("your total balance is "+balance);
 
 
 

@@ -6,6 +6,8 @@ public class mini extends JFrame {
 
     mini(){
         setSize(400,600);
+        setLocation(20,20);
+        setVisible(true);
 
     }
 

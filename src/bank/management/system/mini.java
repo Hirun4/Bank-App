@@ -31,7 +31,7 @@ public class mini extends JFrame {
 
 
         try {
-
+            newCon c =new newCon();
 
         }catch (Exception e){
             e.printStackTrace();

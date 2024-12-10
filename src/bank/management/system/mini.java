@@ -17,6 +17,7 @@ public class mini extends JFrame {
         add(label1);
 
         JLabel label2 = new JLabel("Dev Boys");
+        label2.setFont(new Font("System",Font.BOLD,15));
         label2.setBounds(150,20,200,20);
         add(label2);
 

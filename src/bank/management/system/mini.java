@@ -14,6 +14,7 @@ public class mini extends JFrame {
 
         JLabel label1= new JLabel();
         label1.setBounds(20,140,400,20);
+        add(label1);
 
 
 

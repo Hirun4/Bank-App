@@ -52,6 +52,8 @@ public class mini extends JFrame {
             ResultSet resultSet = c.statement.executeQuery("select * from bank where pin = '"+pin+"' ");
 
             while(resultSet.next()){
+
+                label1.setText(label1.getText() + "<html>" +resultSet.getString("date")+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+resultSet.getString("type")+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;");
                 if(resultSet.getString("type").equals("Deposit")){
                     balance += Integer.parseInt(resultSet.getString("amount"));
                 }else {

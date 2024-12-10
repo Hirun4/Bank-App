@@ -35,7 +35,10 @@ public class mini extends JFrame {
 
         try {
             newCon c =new newCon();
-            ResultSet rs= c.statement.executeQuery("select * from login where pin= '"+pin+"'");
+            ResultSet resultSet= c.statement.executeQuery("select * from login where pin= '"+pin+"'");
+            while (resultSet.next()){
+                label3.setText("Card Number");
+            }
 
         }catch (Exception e){
             e.printStackTrace();

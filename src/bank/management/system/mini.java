@@ -2,8 +2,11 @@ package bank.management.system;
 
 import javax.swing.*;
 import java.awt.*;
+import java.sql.ResultSet;
 
 public class mini extends JFrame {
+
+    String pin;
 
     mini(){
 
@@ -32,6 +35,7 @@ public class mini extends JFrame {
 
         try {
             newCon c =new newCon();
+            ResultSet rs= c.statement.executeQuery("select * from login where pin= '"+pin+"'");
 
         }catch (Exception e){
             e.printStackTrace();

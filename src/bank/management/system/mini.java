@@ -16,6 +16,9 @@ public class mini extends JFrame {
         label1.setBounds(20,140,400,20);
         add(label1);
 
+        JLabel label2 = new JLabel();
+        label2.setBounds(150,20,200,20);
+
 
 
 

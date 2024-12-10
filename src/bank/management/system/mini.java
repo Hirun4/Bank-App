@@ -46,6 +46,24 @@ public class mini extends JFrame {
 
         try {
 
+            int balance= 0;
+            newCon c = new newCon();
+
+            ResultSet resultSet = c.statement.executeQuery("select * from bank where pin = '"+pin+"' ");
+
+            while(resultSet.next()){
+                if(resultSet.getString("type").equals("Deposit")){
+                    balance += Integer.parseInt(resultSet.getString("amount"));
+                }else {
+                    balance -= Integer.parseInt(resultSet.getString("amount"));
+                }
+            }String num ="17";
+
+
+
+
+
+
         }catch (Exception e){
             e.printStackTrace();
         }

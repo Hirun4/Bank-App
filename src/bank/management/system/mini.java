@@ -8,6 +8,8 @@ public class mini extends JFrame {
 
     String pin;
 
+    JButton button;
+
     mini(){
 
         getContentPane().setBackground(new Color(255,204,204));
@@ -71,6 +73,8 @@ public class mini extends JFrame {
         }catch (Exception e){
             e.printStackTrace();
         }
+
+        button = new JButton("Exit");
 
 
 

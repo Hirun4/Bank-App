@@ -2,9 +2,11 @@ package bank.management.system;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.sql.ResultSet;
 
-public class mini extends JFrame {
+public class mini extends JFrame implements ActionListener {
 
     String pin;
 
@@ -86,8 +88,18 @@ public class mini extends JFrame {
 
     }
 
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        setVisible(false);
+
+    }
+
+
+
+
     public static void main(String[] args){
         new mini();
     }
+
 
 }

@@ -80,6 +80,7 @@ public class mini extends JFrame implements ActionListener {
         button.setBounds(20,500,100,25);
         button.addActionListener(this);
         button.setBackground(Color.BLACK);
+        button.setForeground(Color.WHITE);
         add(button);
 
 

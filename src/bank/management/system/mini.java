@@ -12,7 +12,8 @@ public class mini extends JFrame implements ActionListener {
 
     JButton button;
 
-    mini(){
+    mini(String pin){
+        this.pin = pin;
 
         getContentPane().setBackground(new Color(255,204,204));
         setSize(400,600);
@@ -41,7 +42,7 @@ public class mini extends JFrame implements ActionListener {
             newCon c =new newCon();
             ResultSet resultSet= c.statement.executeQuery("select * from login where pin= '"+pin+"'");
             while (resultSet.next()){
-                label3.setText("Card Number: "+ resultSet.getString("cardno").substring(0,4) + "XXXXXXXX" + resultSet.getString("cardno").substring(12));
+                label3.setText("Card Number: "+ resultSet.getString("card_number").substring(0,4) + "XXXXXXXX" + resultSet.getString("card_number").substring(12));
             }
 
         }catch (Exception e){
@@ -101,7 +102,7 @@ public class mini extends JFrame implements ActionListener {
 
 
     public static void main(String[] args){
-        new mini();
+        new mini("");
     }
 
 

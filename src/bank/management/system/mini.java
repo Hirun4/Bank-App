@@ -75,6 +75,7 @@ public class mini extends JFrame {
         }
 
         button = new JButton("Exit");
+        button.setBounds(20,500,100,25);
 
 
 

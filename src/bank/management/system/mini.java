@@ -8,6 +8,7 @@ import java.sql.ResultSet;
 
 public class mini extends JFrame implements ActionListener {
 
+
     String pin;
 
     JButton button;

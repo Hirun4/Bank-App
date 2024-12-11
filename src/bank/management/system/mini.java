@@ -21,7 +21,7 @@ public class mini extends JFrame implements ActionListener {
         setLayout(null);
 
         JLabel label1= new JLabel();
-        label1.setBounds(20,140,400,20);
+        label1.setBounds(20,140,400,200);
         add(label1);
 
         JLabel label2 = new JLabel("Dev Boys");
